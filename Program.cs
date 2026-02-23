@@ -43,6 +43,9 @@ app.MapPost("/api/items", (HttpContext ctx, CreateItemRequest request, IItemRepo
 {
     if (string.IsNullOrWhiteSpace(request.Name))
         throw new ValidationException("Поле name не должно быть пустым");
+    
+    if (request.Name.Length > 100)
+        throw new ValidationException("Поле name не должно быть длиннее 100 символов");
 
     if (request.Price < 0)
         throw new ValidationException("Поле price не может быть отрицательным");

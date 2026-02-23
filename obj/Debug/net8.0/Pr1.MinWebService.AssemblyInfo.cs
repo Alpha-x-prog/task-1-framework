@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pr1.MinWebService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74d898e87f8672d91c67021516569149b96a2e4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+371a889791468e98b1bc5ea975fa554372a215b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pr1.MinWebService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pr1.MinWebService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
