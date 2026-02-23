@@ -2,9 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <InvariantGlobalization>false</InvariantGlobalization>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pr1.MinWebService.Tests\**" />
+    <Content Remove="Pr1.MinWebService.Tests\**" />
+    <EmbeddedResource Remove="Pr1.MinWebService.Tests\**" />
+    <None Remove="Pr1.MinWebService.Tests\**" />
+  </ItemGroup>
 
 </Project>
