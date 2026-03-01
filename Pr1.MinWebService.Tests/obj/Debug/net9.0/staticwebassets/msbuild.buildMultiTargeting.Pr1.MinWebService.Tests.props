@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Pr1.MinWebService.Tests.props" />
-</Project>
