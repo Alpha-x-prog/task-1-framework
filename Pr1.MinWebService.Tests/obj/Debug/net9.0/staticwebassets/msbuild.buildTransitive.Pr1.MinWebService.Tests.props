@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Pr1.MinWebService.Tests.props" />
+</Project>
